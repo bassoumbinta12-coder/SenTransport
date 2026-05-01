@@ -2,8 +2,8 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="mon-footer">
-      <p>© 2026 SènTransport — ESP/UCAD</p>
+    <footer className="footer">
+      <p>&copy; 2026 SenTransport &mdash; ESP/UCAD</p>
     </footer>
   );
 }
