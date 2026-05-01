@@ -1,0 +1,16 @@
+.stat-card {
+  border: 1px solid #2e7d32;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #f9f9f9;
+}
+
+.stat-chiffre {
+  color: #2e7d32;
+  font-size: 2rem;
+  margin: 0;
+}

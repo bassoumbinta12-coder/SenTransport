@@ -1,0 +1,9 @@
+.mon-footer {
+  background-color: #333; /* Fond gris foncé */
+  color: white;           /* Texte blanc */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

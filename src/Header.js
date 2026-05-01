@@ -6,6 +6,7 @@ return (
     <p className="header-soustitre ">
         Votre guide du transport en commun a Dakar
     </p>
+    <p>{new Date().toLocaleDateString('fr-FR')}</p>
 </header >
 ) ;
 }
