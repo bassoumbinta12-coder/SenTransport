@@ -10,3 +10,4 @@ function Statistique({ chiffre, libelle }) {
 }
 
 export default Statistique;
+
