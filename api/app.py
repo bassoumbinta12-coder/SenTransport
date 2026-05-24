@@ -30,5 +30,12 @@ def get_ligne(ligne_id):
         return jsonify({"erreur": "Ligne non trouvee"}), 404
     return jsonify(ligne)
 
-if __name__== "__main__":
+with open("arrets.json", "r") as f:
+    arrets = json.load(f)
+
+@app.route("/arrets")
+def get_arrets():
+    return jsonify(arrets)
+
+if __name__ == "__main__":
     app.run(debug=True, port=5000)
